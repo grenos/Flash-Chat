@@ -21,15 +21,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //TODO: Initialise and Configure your Firebase here:
         FirebaseApp.configure()
         
-        let myDatabase = Database.database().reference()
-        
-        myDatabase.setValue("I passed some data")
+        //let myDatabase = Database.database().reference()
+        //myDatabase.setValue("I passed some data")
         
         return true
     }
 
-    
-    
     
     
     func applicationWillResignActive(_ application: UIApplication) {
